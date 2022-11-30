@@ -206,7 +206,7 @@ function imprimir_tablero () {
     $('#tablero [fila="' + fin[0] + '"][columna="' + fin[1] + '"]').addClass('final');
 }
 
-//Algoritmo Luisa
+//Se ininician los algoritmos (Luisa)
 
 function pintar_recorrido (recorrido) {
     let direccion = GD
